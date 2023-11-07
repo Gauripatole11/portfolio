@@ -8,7 +8,8 @@
 body {
     color: white;
     background: rgb(1, 1, 14);
-    background: radial-gradient(circle, rgba(1, 1, 14, 1) 6%, rgba(0, 0, 0, 1) 39%, rgba(5, 14, 67, 1) 62%, rgba(15, 36, 156, 1) 100%);
+    background: rgb(7,1,11);
+    background: linear-gradient(90deg, rgba(7,1,11,1) 0%, rgba(4,1,1,1) 66%, rgba(0,0,0,1) 100%);
 
 
 }
@@ -78,6 +79,7 @@ body {
     animation-delay: 0.7s;
 }
 
+
 .home-content h3:nth-of-type(2) {
     margin-bottom: 30px;
 }
@@ -85,7 +87,7 @@ body {
 .home-content h3 {
     font-size: 32px;
     font-weight: 700;
-    margin: -3px 0;
+    margin: -1px 0;
 }
 
 .home-content p {
@@ -112,7 +114,7 @@ body {
 }
 
 .home-sci a:hover {
-    background: blue;
+    background: #00FFFFFF;
     color: cadetblue;
     box-shadow: 0 0 20px aquamarine;
 }
@@ -121,6 +123,7 @@ body {
     display: inline-block;
     padding: 12px 28px;
     background: aquamarine;
+    border: 2px solid #0ef;
     border-radius: 40px;
     font-size: 16px;
     color: black;
@@ -131,11 +134,12 @@ body {
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px aquamarine, 0 0 25px aquamarine;
+    box-shadow: 0 0 5px aqua, 0 0 15px aqua;
 }
 
 .btn-box:hover {
-    box-shadow: 0 0 5px fuchsia, 0 0 25px blue, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+    background: aqua;
+    box-shadow: 0 0 5px cyan, 0 0 5px cyan, 0 0 0px cyan, 0 0 5px white, 0 0 0px cyan;
 }
 
 @keyframes slideRight {
@@ -184,8 +188,8 @@ body {
 
 .btn-box:hover {
     box-shadow: 0 0 5px cyan,
-    0 0 25px blue, 0 0 50px blue,
-    0 0 100px blue, 0 0 200px blue;
+    0 0 15px aquamarine, 0 0 15px aquamarine,
+    0 0 15px aquamarine, 0 0 10px aqua;
 }
 .about{
     display: grid;
@@ -255,7 +259,7 @@ body {
 }
 .services-list div a{
     text-decoration: none;
-   color: black;
+    color: black;
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
@@ -273,7 +277,7 @@ body {
     opacity: slideTop 1s ease forwards;
     animation-delay: 2s;
     box-shadow: 0 0 5px greenyellow,
-                0 0 25px cyan;
+    0 0 25px cyan;
 }
 .read:hover{
     box-shadow: 0 0 5px fuchsia,
@@ -720,6 +724,3 @@ services-list div:hover{
     padding:10px;
     border-radius: 0.5rem;
 }
-
-
-
