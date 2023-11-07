@@ -249,8 +249,8 @@ body {
     border-right: 10px;
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
-    box-shadow: 1px 1px 20px blue,
-    1px 1px 20px red
+    box-shadow: 1px 1px 20px aquamarine,
+    1px 1px 20px aquamarine
 }
 .services-list div i {
     font-size: 30px;
@@ -276,13 +276,12 @@ body {
     font-weight: 600;
     opacity: slideTop 1s ease forwards;
     animation-delay: 2s;
-    box-shadow: 0 0 5px greenyellow,
-    0 0 25px cyan;
+    box-shadow: 0 0 5px aquamarine,
+    0 0 25px aquamarine;
 }
 .read:hover{
     box-shadow: 0 0 5px fuchsia,
-    0 0 25px blue, 0 0 50px blue,
-    0 0 100px blue, 0 0 200px red;
+    0 0 25px cadetblue, 0 0 50px cadetblue, 0 0 100px cadetblue, 0 0 200px cadetblue;
 }
 services-list div:hover{
     transform: translateY(-10px);
